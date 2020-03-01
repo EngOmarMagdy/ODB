@@ -1,0 +1,72 @@
+     @font-face
+    {
+        src: url(fonts/MYRIADPRO-REGULAR.OTF);
+        font-family: Myriad;
+    }
+    
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        box-sizing: border-box;
+        outline: none;
+        font-family: Myriad;
+    }
+    
+    .background
+    {
+        background: url("Picture/w1.JPG") repeat;
+        height: 1700px;
+    }
+    
+    img
+    {
+        display: inline;
+        left: 13%;
+        bottom: 81.5%;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .container
+    {
+        background: #fff;
+        width: 65%;
+        height: 100%;
+        margin: auto;
+        padding: 1% 2.5%;
+        box-shadow: 0px 0px 125px 0px rgba(0, 0, 0, 0.9);
+        position: relative;
+        overflow: hidden;
+    }
+    
+     h1
+    {
+        font-size: 245%;
+        text-align: center;
+        margin: 10px 0 20px;
+    }
+    
+    .container div
+    {
+        display: block;
+        overflow: hidden;
+        margin: 20px 0 0 9%;
+    }
+    
+    h2
+    {
+        width: auto;
+        font-size: 200%;
+        float: left;
+    }
+    p
+    {
+        max-width: 60%;
+        margin: 0 0 0 10px;
+        font-size: 200%;
+        float: left;
+    }

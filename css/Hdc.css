@@ -1,0 +1,135 @@
+      @font-face
+    {
+        src: url(fonts/MYRIADPRO-REGULAR.OTF);
+        font-family: Myriad;
+    }
+    
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        box-sizing: border-box;
+        outline: none;
+        font-family: Myriad;
+    }
+    
+    .background
+    {
+        background: url("Picture/w1.JPG") repeat;
+        height: 2400px;
+    }
+    
+    img
+    {
+        display: inline;
+        left: 11%;
+        bottom: 81.5%;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .container
+    {
+        background: #fff;
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        padding: 1% 2.5%;
+        box-shadow: 0px 0px 125px 0px rgba(0, 0, 0, 0.9);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    h1
+    {
+        font-size: 245%;
+        text-align: center;
+        margin: 10px 0 40px;
+    }
+    .sec
+    {
+        display: block;
+        overflow: hidden;
+    }
+    
+    label
+    {
+        width: 27%;
+        margin: 20px 0 ;
+        font-size: 200%;
+        float: left;
+        display: flex;
+    }
+    input, textarea, select
+    {
+        width: 70%;
+        height: 60px;
+        margin: 20px 0;
+        padding: 20px ;
+        float: left;
+        display: flex;
+        font-size: 20pt;
+        border-radius: 15px;
+        box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.65),
+                    inset 0px 1px 55px 0px rgba(0, 0, 0, 0.10);
+    }
+    
+    textarea
+    {
+        height: 200px;
+        box-shadow: 0px 3px 24px 0px rgba(0, 0, 0, 0.75),
+                    inset 0px 2px 80px 0px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+    }
+    
+    select
+    {
+        -webkit-appearance: none;
+        padding: 0 20px ;
+        background: url("Category.png") no-repeat 95% ;
+    }
+    
+    .submit-d
+    {
+        display: inline;
+        position: relative;
+    }
+    .submit, .submit:hover
+    {
+        width: 11%;
+        height: 45px;
+        margin-left: 710px;
+        background: #0B284F;
+        color: white;
+        border-radius: 10px;
+        padding: 6px 13.5px;
+        font-size: 175%;
+    }
+    .submit:hover
+    {
+        padding: 3px 10.5px;
+        border: 3px solid black;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .reset-d
+    {
+        display: inline;
+        position: relative;
+        right: 25%;
+    }
+    .reset
+    {
+        width: 11%;
+        height: 45px;
+        margin-left: 30px;
+        border: 3px solid black ;
+        border-radius: 10px;
+        padding: 3px 23px;
+        font-size: 170%;
+        cursor: pointer;  
+    }
